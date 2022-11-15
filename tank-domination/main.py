@@ -81,7 +81,7 @@ while game_running_flag:
 
     game_display.blit(game_tank_sprite_cpu, (game_characteristic["cpu"]["position"]["x"], game_characteristic["grass"]["position"]["y"] - game_tank_sprite_cpu.get_height()))
 
-    pygame.display.update
+    pygame.display.update()
 
 
     system_clock.tick(30)
